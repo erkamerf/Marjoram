@@ -8,7 +8,7 @@ res = require 'resources'
 ---You need to have a minimum of 2 spells in your list
 user_settings = {
     user_spells = {
-        Healing = T{'Cure','Cure II'},
+        Healing = T{'Cure','Cure II','Cure III','Cura','Cura II'},
         Geomancy = T{},
         Enhancing = T{'Protect','Shell','Barfire','Barwater','Barthunder','Barstone','Baraero','Barblizzard'},
 		--'Protect','Shell','Barfire','Barwater','Barthunder','Barstone','Baraero','Barblizzard'--
@@ -62,8 +62,8 @@ function get_sets()
     end_skillup = {shutdown = false,logoff = false,stoptype = "Stop"}
     gs_skillup = {color={GEO=true,HEL=true,ENH=true,NIN=true,SIN=true,BLU=true,SMN=true,STOP=true,DOWN=true,LOG=true,TRUST=true,TEST=true,REF=true,ITEM=true},
                 skill_ups={},total_skill_ups=0,skill={},use_trust=false,use_item=false,use_geo=false,test_mode=false,test_brd="Wind",skipped_spells=T{}}
-    gs_skillup.box={pos={x=211,y=402},text={font='Segoe UI Symbol',size=12,Fonts={'sans-serif'},},bg={alpha=255}}
-    gs_skillup.boxa={pos={x=gs_skillup.box.pos.x - 145,y=gs_skillup.box.pos.y},text={font='Segoe UI Symbol',size=9},bg={alpha=255}}
+    gs_skillup.box={pos={x=211,y=402},text={font='Arial',size=12,Fonts={'sans-serif'},},bg={alpha=255}}
+    gs_skillup.boxa={pos={x=gs_skillup.box.pos.x - 145,y=gs_skillup.box.pos.y},text={font='Arial',size=9},bg={alpha=255}}
     if gearswap.pathsearch({'Saves/skillup_data.lua'}) then
         include('Saves/skillup_data.lua')
     end
