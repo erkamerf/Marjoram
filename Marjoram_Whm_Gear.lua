@@ -364,19 +364,21 @@ function init_gear_sets()
 		back="Umbra Cape",waist="Fucho-no-obi",legs="Assid. Pants +1",feet=gear.chironic_refresh_feet}
 
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
-	sets.idle = {main="Daybreak",sub="Culminus",ammo="Homiliary",
-    			head="Inyanga Tiara +2",
-    			body={ name="Witching Robe", augments={'MP+45','Mag. Acc.+14','"Mag.Atk.Bns."+14',}},
-    			hands="Inyan. Dastanas +2",
-    			legs="Inyanga Shalwar +2",
-    			feet="Inyan. Crackows +2",
-    			neck="Twilight Torque",
-    			waist="Porous Rope",
-    			left_ear="Magnetic Earring",
-    			right_ear="Glorious Earring",
-    			left_ring="Stikini Ring +1",
-    			right_ring="Lebeche Ring",
-    			back="Archon Cape",}
+	sets.idle = {    main="Maxentius",
+    sub="Genbu's Shield",
+    ammo="Kalboron Stone",
+    head="Aya. Zucchetto +2",
+    body="Annoint. Kalasiris",
+    hands="Inyan. Dastanas +1",
+    legs="Inyanga Shalwar +1",
+    feet="Inyan. Crackows +2",
+    neck="Inquisitor's Chain",
+    waist="Embla Sash",
+    left_ear="Darkness Pearl",
+    right_ear="Energy Earring",
+    left_ring="Inyanga Ring",
+    right_ring="Ayanmo Ring",
+    back="Toro Cape",}
 
 	sets.idle.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
@@ -418,19 +420,21 @@ function init_gear_sets()
     -- EG: sets.engaged.Dagger.Accuracy.Evasion
 
     -- Basic set for if no TP weapon is defined.
-    sets.engaged = {ammo="Staunch Tathlum +1",
-    			head="Aya. Zucchetto +2",
-    			body="Ayanmo Corazza +2",
-    			hands="Nyame Gauntlets",
-    			legs="Aya. Cosciales +2",
- 				feet="Nyame Sollerets",
-    			neck="Asperity Necklace",
-    			waist="Windbuffet Belt",
-    			left_ear="Cessance Earring",
-    			right_ear="Telos Earring",
-    			left_ring="Chirich Ring +1",
-    			right_ring="Petrov Ring",
-    			back="Buquwik Cape",}
+    sets.engaged = {    main="Maxentius",
+    sub="Genbu's Shield",
+    ammo="Kalboron Stone",
+    head="Aya. Zucchetto +2",
+    body="Ayanmo Corazza",
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Aya. Gambieras +2",
+    neck="Inquisitor's Chain",
+    waist="Embla Sash",
+    left_ear="Darkness Pearl",
+    right_ear="Energy Earring",
+    left_ring="Prolix Ring",
+    right_ring="Ayanmo Ring",
+    back="Toro Cape",}
 
     sets.engaged.Acc = {ammo="Hasty Pinion +1",
         head="Aya. Zucchetto +2",neck="Combatant's Torque",ear1="Telos Earring",ear2="Brutal Earring",
