@@ -50,7 +50,7 @@ function init_gear_sets()
 	
     sets.buff.Sublimation = {waist="Embla Sash"}
     sets.buff.DTSublimation = {waist="Embla Sash"}
-	sets.precast.JA['Devotion'] = {head="Piety Cap +2"}
+	sets.precast.JA['Devotion'] = {head="Piety Cap +4"}
 	
     -- Precast Sets
 
@@ -163,7 +163,7 @@ function init_gear_sets()
     	body="Theo. Bliaut +3",
     	hands="Theophany Mitts +3",
     	legs="Gyve Trousers",
-    	feet="Piety Duckbills +3",
+    	feet="Piety Duckbills +4",
     	neck="Inquisitor's Chain",
     	waist="Witful Belt",
     	left_ear="Mendi. Earring",
@@ -278,8 +278,8 @@ function init_gear_sets()
 
 	sets.midcast.Regen = set_combine(sets.midcast['Enhancing Magic'], {hands="Ebers Mitts +1",legs="Th. Pant. +3",})
 	
-	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
-	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	sets.midcast.Shell = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +2",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +2",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	
