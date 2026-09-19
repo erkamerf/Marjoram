@@ -253,7 +253,7 @@ function init_gear_sets()
 	sets.midcast.MeleeLightDayCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 
 	sets.midcast.Cursna = {main=gear.grioavolr_fc_staff,sub="Clemency Grip",ammo="Hasty Pinion +1",
-		head="Ebers Cap +1",neck="Debilis Medallion",ear1="Meili Earring",ear2="Malignance Earring",
+		head="Ebers Cap +1",neck="Malison Medallion",ear1="Meili Earring",ear2="Malignance Earring",
 		body="Ebers Bliaut +1",hands="Fanatic Gloves",ring1="Haoma's Ring",ring2="Menelaus's Ring",
 		back="Mending Cape",waist="Embla Sash",legs="Th. Pant. +3",feet="Vanya Clogs"}
 
