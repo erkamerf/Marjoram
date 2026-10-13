@@ -91,12 +91,12 @@ function init_gear_sets()
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
 
     -- Precast sets to enhance JAs
-    sets.precast.JA.Benediction = {body="piety bliaut +2"}
+    sets.precast.JA.Benediction = {body="Piety Bliaut +3"}
 
     -- Waltz set (chr and vit)
     sets.precast.Waltz = {
 		head="Nahtirah Hat",ear1="Roundel Earring",
-		body="piety bliaut +2",hands="Telchine Gloves",
+		body="Piety Bliaut +3",hands="Telchine Gloves",
 		waist="Chaac Belt",back="Aurist's Cape +1"}
 
     -- Weaponskill sets
@@ -280,13 +280,13 @@ function init_gear_sets()
 	
 	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
-	sets.midcast.Shell = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +2",ear1="Gifted Earring",waist="Sekhmet Corset"})
-	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +2",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Shell = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	
 	sets.midcast.BarElement = {main="Beneficus",sub="Ammurapi Shield",ammo="Hasty Pinion +1",
 		head="Ebers Cap +1",neck="Incanter's Torque",ear1="Andoaa Earring",ear2="Gifted Earring",
 		body="Ebers Bliaut +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		back=gear.obi_cure_back,waist="Olympus Sash",legs="Piety Pantaln. +2",feet="Ebers Duckbills +1"}
+		back=gear.obi_cure_back,waist="Olympus Sash",legs="Piety Pantaln. +3",feet="Ebers Duckbills +1"}
 
 	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
