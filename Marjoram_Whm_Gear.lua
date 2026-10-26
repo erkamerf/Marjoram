@@ -91,12 +91,12 @@ function init_gear_sets()
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
 
     -- Precast sets to enhance JAs
-    sets.precast.JA.Benediction = {body="Piety Bliaut +3"}
+    sets.precast.JA.Benediction = {body="Piety Bliaut +4"}
 
     -- Waltz set (chr and vit)
     sets.precast.Waltz = {
 		head="Nahtirah Hat",ear1="Roundel Earring",
-		body="Piety Bliaut +3",hands="Telchine Gloves",
+		body="Piety Bliaut +4",hands="Telchine Gloves",
 		waist="Chaac Belt",back="Aurist's Cape +1"}
 
     -- Weaponskill sets
@@ -159,9 +159,9 @@ function init_gear_sets()
 		main="Daybreak",
     	sub="Sors Shield",
     	ammo="Kalboron Stone",
-    	head="Theophany Cap +3",
+    	head="Theo. Cap +4",
     	body="Theo. Bliaut +4",
-    	hands="Theophany Mitts +3",
+    	hands="Theo. Mitts +4",
     	legs="Gyve Trousers",
     	feet="Piety Duckbills +4",
     	neck="Inquisitor's Chain",
@@ -174,53 +174,53 @@ function init_gear_sets()
 	}
 		
 	sets.midcast.CureSolace = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
-		body="Ebers Bliaut +1",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
+		body="Ebers Bliaut +1",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Menelaus's Ring",
 		back=gear.obi_cure_back,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 
 	sets.midcast.LightWeatherCure = {main="Chatoyant Staff",sub="Curatio Grip",ammo="Esper Stone +1",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
-		body="Kaykaus Bliaut",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Lebeche Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
+		body="Kaykaus Bliaut",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Lebeche Ring",
 		back="Twilight Cape",waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 
 	sets.midcast.LightWeatherCureSolace = {main="Chatoyant Staff",sub="Curatio Grip",ammo="Esper Stone +1",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
-		body="Ebers Bliaut +1",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Lebeche Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
+		body="Ebers Bliaut +1",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Lebeche Ring",
 		back=gear.obi_cure_back,waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 		
 	sets.midcast.LightDayCureSolace = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
-		body="Ebers Bliaut +1",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
+		body="Ebers Bliaut +1",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Menelaus's Ring",
 		back=gear.obi_cure_back,waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 
 	sets.midcast.LightDayCure = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
-		body="Theo. Bliaut +4",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
+		body="Theo. Bliaut +4",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Menelaus's Ring",
 		back="Twilight Cape",waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 
 	sets.midcast.Curaga = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
-		body="Theo. Bliaut +4",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
+		body="Theo. Bliaut +4",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Menelaus's Ring",
 		back=gear.obi_cure_back,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 		
 	sets.midcast.LightWeatherCuraga = {main="Chatoyant Staff",sub="Curatio Grip",ammo="Esper Stone +1",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
-		body="Kaykaus Bliaut",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Lebeche Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
+		body="Kaykaus Bliaut",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Lebeche Ring",
 		back="Twilight Cape",waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 		
 	sets.midcast.LightDayCuraga = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
-		body="Theo. Bliaut +4",hands="Theophany Mitts +3",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Nourish. Earring +1",ear2="Glorious Earring",
+		body="Theo. Bliaut +4",hands="Theo. Mitts +4",ring1="Janniston Ring",ring2="Menelaus's Ring",
 		back="Twilight Cape",waist="Hachirin-no-Obi",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 
 	sets.midcast.Cure.DT = {main=gear.gada_enhancing_club,sub="Genmei Shield",ammo="Staunch Tathlum +1",
-		head="Theophany Cap +3",neck="Loricate Torque +1",ear1="Nourish. Earring +1",ear2="Glorious Earring",
+		head="Theo. Cap +4",neck="Loricate Torque +1",ear1="Nourish. Earring +1",ear2="Glorious Earring",
 		body="Ayanmo Corazza +2",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
 		back=gear.obi_cure_back,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Gende. Galosh. +1"}
 		
 	--Melee Curesets are used whenever your Weapons state is set to anything but None.
 	sets.midcast.MeleeCure = {ammo="Pemphredo Tathlum",
-		head="Theophany Cap +3",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
+		head="Theo. Cap +4",neck="Incanter's Torque",ear1="Regal Earring",ear2="Glorious Earring",
 		body="Theo. Bliaut +4",hands="Kaykaus Cuffs",ring1="Janniston Ring",ring2="Lebeche Ring",
 		back=gear.obi_cure_back,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Kaykaus Boots"}
 		
@@ -280,13 +280,13 @@ function init_gear_sets()
 	
 	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Piety Duckbills +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
-	sets.midcast.Shell = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
-	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +3",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Shell = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Panta. +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
+	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Panta. +4",ear1="Gifted Earring",waist="Sekhmet Corset"})
 	
 	sets.midcast.BarElement = {main="Beneficus",sub="Ammurapi Shield",ammo="Hasty Pinion +1",
 		head="Ebers Cap +1",neck="Incanter's Torque",ear1="Andoaa Earring",ear2="Gifted Earring",
 		body="Ebers Bliaut +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		back=gear.obi_cure_back,waist="Olympus Sash",legs="Piety Pantaln. +3",feet="Ebers Duckbills +1"}
+		back=gear.obi_cure_back,waist="Olympus Sash",legs="Piety Panta. +4",feet="Ebers Duckbills +1"}
 
 	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
@@ -355,7 +355,7 @@ function init_gear_sets()
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
-		body="Theo. Bliaut +4",hands="Theophany Mitts +3",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
+		body="Theo. Bliaut +4",hands="Theo. Mitts +4",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		back=gear.obi_nuke_back,waist="Luminary Sash",legs="Chironic Hose",feet="Theo. Duckbills +4"}
 		
 	sets.midcast.Dia = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
