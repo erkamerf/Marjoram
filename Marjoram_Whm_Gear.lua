@@ -9,11 +9,11 @@ function user_job_setup()
 	state.Weapons:options('None','DualWeapons','MeleeWeaponStaff','MeleeWeaponClub','Yagrush','Trashweapons')
 
 	gear.obi_cure_waist = "Austerity Belt +1"
-	gear.obi_cure_back = {name="Alaunus's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','"Fast Cast"+10',}}
+	gear.obi_cure_back = { name="Alaunus's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','"Fast Cast"+10','Damage taken-5%',}}
 
 	gear.obi_nuke_waist = "Sekhmet Corset"
 	gear.obi_high_nuke_waist = "Yamabuki-no-Obi"
-	gear.obi_nuke_back = {name="Alaunus's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10',}}
+	gear.obi_nuke_back = {name="Alaunus's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10','Damage taken-5%',}}
 
 		-- Additional local binds
 	send_command('bind ^` input /ma "Arise" <t>')
@@ -57,9 +57,9 @@ function init_gear_sets()
     -- Fast cast sets for spells
     sets.precast.FC = {
 		main="Pandit's Staff",
-    	ammo="Kalboron Stone",
+    	ammo="Impatiens",
     	head="Vanya Hood",
-    	body="Volte Doublet",
+    	body="Inyanga Jubbah +2",
     	hands="Gende. Gages +1",
     	legs="Aya. Cosciales +2",
     	feet="WN Clomps +1",
@@ -170,7 +170,7 @@ function init_gear_sets()
     	right_ear="Novia Earring",
     	left_ring="Neptune's Ring",
     	right_ring="Menelaus's Ring",
-    	back={ name="Mending Cape", augments={'Healing magic skill +8','Enha.mag. skill +4','Mag. Acc.+1',}},
+    	back=gear.obi_cure_back,
 	}
 		
 	sets.midcast.CureSolace = {main="Daybreak",sub="Sors Shield",ammo="Pemphredo Tathlum",
@@ -439,21 +439,21 @@ function init_gear_sets()
     -- EG: sets.engaged.Dagger.Accuracy.Evasion
 
     -- Basic set for if no TP weapon is defined.
-    sets.engaged = {    main="Maxentius",
-    sub="Genbu's Shield",
-    ammo="Kalboron Stone",
-    head="Aya. Zucchetto +2",
-    body="Ayanmo Corazza +2",
-    hands="Aya. Manopolas +2",
-    legs="Aya. Cosciales +2",
-    feet="Aya. Gambieras +2",
-    neck="Inquisitor's Chain",
-    waist="Embla Sash",
-    left_ear="Darkness Pearl",
-    right_ear="Energy Earring",
-    left_ring="Prolix Ring",
-    right_ring="Ayanmo Ring",
-    back="Toro Cape",}
+    sets.engaged = {main="Maxentius",
+    	sub="Genbu's Shield",
+    	ammo="Kalboron Stone",
+    	head="Aya. Zucchetto +2",
+    	body="Ayanmo Corazza +2",
+    	hands="Aya. Manopolas +2",
+    	legs="Aya. Cosciales +2",
+    	feet="Aya. Gambieras +2",
+    	neck="Inquisitor's Chain",
+    	waist="Embla Sash",
+    	left_ear="Darkness Pearl",
+    	right_ear="Energy Earring",
+    	left_ring="Prolix Ring",
+    	right_ring="Ayanmo Ring",
+    	back="Toro Cape",}
 
     sets.engaged.Acc = {ammo="Hasty Pinion +1",
         head="Aya. Zucchetto +2",neck="Combatant's Torque",ear1="Telos Earring",ear2="Brutal Earring",
