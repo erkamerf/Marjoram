@@ -63,13 +63,13 @@ function init_gear_sets()
     	hands="Gende. Gages +1",
     	legs="Aya. Cosciales +2",
     	feet="WN Clomps +1",
-    	neck="Inquisitor's Chain",
+    	neck="Voltsurge Torque",
     	waist="Witful Belt",
     	left_ear="Mendi. Earring",
     	right_ear="Novia Earring",
-    	left_ring="Prolix Ring",
-    	right_ring="Ayanmo Ring",
-    	back="Swith Cape +1",
+    	left_ring="Weather. Ring",
+    	right_ring="Lebeche Ring",
+    	back=gear.obi_cure_back,
 	}
 
     sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {main="Oranyan",waist="Embla Sash"})
@@ -138,7 +138,7 @@ function init_gear_sets()
 	
 	sets.ConserveMP = {main=gear.grioavolr_fc_staff,sub="Umbra Strap",ammo="Hasty Pinion +1",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Gifted Earring",ear2="Gwati Earring",
-		body="Vedic Coat",hands="Fanatic Gloves",ring1="Kishar Ring",ring2="Prolix Ring",
+		body="Vedic Coat",hands="Fanatic Gloves",ring1="Kishar Ring",ring2="Weather. Ring",
 		back="Solemnity Cape",waist="Austerity Belt +1",legs="Vanya Slops",feet="Medium's Sabots"}
 		
 	sets.midcast.Teleport = sets.ConserveMP
@@ -148,8 +148,8 @@ function init_gear_sets()
 	
     sets.midcast.FastRecast = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap +1",ammo="Hasty Pinion +1",
 		head="Vanya Hood",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Gende. Gages +1",ring1="Kishar Ring",ring2="Prolix Ring",
-		back="Swith Cape +1",waist="Witful Belt",legs="Lengo Pants",feet="Regal Pumps +1"}
+		body="Inyanga Jubbah +2",hands="Gende. Gages +1",ring1="Kishar Ring",ring2="Weather. Ring",
+		back=gear.obi_cure_back,waist="Witful Belt",legs="Lengo Pants",feet="Regal Pumps +1"}
 		
     -- Cure sets
 
@@ -259,8 +259,8 @@ function init_gear_sets()
 
 	sets.midcast.StatusRemoval = {main=gear.grioavolr_fc_staff,sub="Clemency Grip",ammo="Hasty Pinion +1",
 		head="Ebers Cap +1",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Kishar Ring",ring2="Prolix Ring",
-		back="Swith Cape +1",waist="Embla Sash",legs="Ebers Pant. +1",feet="Regal Pumps +1"}
+		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Kishar Ring",ring2="Weather. Ring",
+		back=gear.obi_cure_back,waist="Embla Sash",legs="Ebers Pant. +1",feet="Regal Pumps +1"}
 		
 	sets.midcast.Erase = set_combine(sets.midcast.StatusRemoval, {neck="Cleric's Torque"})
 
@@ -390,12 +390,12 @@ function init_gear_sets()
     	hands="WN Mittens +1",
     	legs="Aya. Cosciales +2",
     	feet="WN Clomps +1",
-    	neck="Inquisitor's Chain",
+    	neck="Warder's Charm +1",
     	waist="Carrier's Sash",
     	left_ear="Mendi. Earring",
     	right_ear="Novia Earring",
     	left_ring="Defending Ring",
-    	right_ring="Ayanmo Ring",
+    	right_ring="Murky Ring",
     	back="Archon Cape",
 	}
 
@@ -440,20 +440,20 @@ function init_gear_sets()
 
     -- Basic set for if no TP weapon is defined.
     sets.engaged = {main="Maxentius",
-    	sub="Genbu's Shield",
-    	ammo="Kalboron Stone",
+    	sub="Genesis Shield",
+    	ammo="Ghastly Tathlum +1",
     	head="Aya. Zucchetto +2",
     	body="Ayanmo Corazza +2",
     	hands="Aya. Manopolas +2",
     	legs="Aya. Cosciales +2",
     	feet="Aya. Gambieras +2",
-    	neck="Inquisitor's Chain",
-    	waist="Embla Sash",
+    	neck="Neferious Collar +1",
+    	waist="Witful Belt",
     	left_ear="Darkness Pearl",
-    	right_ear="Energy Earring",
-    	left_ring="Prolix Ring",
-    	right_ring="Ayanmo Ring",
-    	back="Toro Cape",}
+    	right_ear="Alabaster Earring",
+    	left_ring="Weather. Ring",
+    	right_ring="Rajas Ring",
+    	back="Buquwik Cape",}
 
     sets.engaged.Acc = {ammo="Hasty Pinion +1",
         head="Aya. Zucchetto +2",neck="Combatant's Torque",ear1="Telos Earring",ear2="Brutal Earring",
@@ -475,7 +475,7 @@ function init_gear_sets()
 
 	sets.HPDown = {head="Pixie Hairpin +1",ear1="Mendicant's Earring",ear2="Evans Earring",
 		body="Zendik Robe",hands="Hieros Mittens",ring1="Mephitas's Ring +1",ring2="Mephitas's Ring",
-		back="Swith Cape +1",waist="Flax Sash",legs="Shedir Seraweels",feet=""}
+		back=gear.obi_cure_back,waist="Flax Sash",legs="Shedir Seraweels",feet=""}
 
 	sets.HPCure = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Blistering Sallet +1",neck="Nodens Gorget",ear1="Etiolation Earring",ear2="Ethereal Earring",
