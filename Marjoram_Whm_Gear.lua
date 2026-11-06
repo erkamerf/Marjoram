@@ -57,6 +57,7 @@ function init_gear_sets()
     -- Fast cast sets for spells
     sets.precast.FC = {
 		main="Pandit's Staff",
+		sub="Clerisy Strap +1",
     	ammo="Impatiens",
     	head="Vanya Hood",
     	body="Inyanga Jubbah +2",
@@ -384,6 +385,7 @@ function init_gear_sets()
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle = {    
 		main="Pandit's Staff",
+		sub="Clerisy Strap +1",
     	ammo="Kalboron Stone",
     	head="Befouled Crown",
     	body="Annoint. Kalasiris",
